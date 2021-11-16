@@ -1,0 +1,33 @@
+@import '../../styles.scss';
+
+svg {
+    width: 40px;
+    height: 35px;
+    margin: 2rem;
+    transition: 200ms all ease;
+    filter: grayscale(100%);
+}
+
+a {
+    svg:hover {
+        transition: 200ms all ease;
+        filter: grayscale(0%);
+    }
+}
+
+h2 {
+    margin-top: 10rem;
+}
+
+ 
+@media screen and (max-width: 575px) {
+    h2 {
+        font-size: 3rem;
+    }
+    svg {
+        filter: grayscale(0%);
+        width: 35px;
+        height: 30px;
+        margin: 1rem;
+    }
+  }
