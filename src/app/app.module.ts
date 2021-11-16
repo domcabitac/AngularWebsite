@@ -8,6 +8,8 @@ import { HeroComponent } from './hero/hero.component';
 import { BackgroundComponent } from './hero/background/background.component';
 import { TypeWritterComponent } from './hero/type-writter/type-writter.component';
 import { CtaComponent } from './hero/cta/cta.component';
+import { ServiceComponent } from './service/service.component';
+import { CardsComponent } from './service/cards/cards.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { CtaComponent } from './hero/cta/cta.component';
     HeroComponent,
     BackgroundComponent,
     TypeWritterComponent,
-    CtaComponent
+    CtaComponent,
+    ServiceComponent,
+    CardsComponent
   ],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA ],
   imports: [
