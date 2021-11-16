@@ -11,6 +11,9 @@ import { CtaComponent } from './hero/cta/cta.component';
 import { ServiceComponent } from './service/service.component';
 import { CardsComponent } from './service/cards/cards.component';
 import { AboutComponent } from './about/about.component';
+import { CodeComponent } from './code/code.component';
+import { ProjectsComponent } from './code/projects/projects.component';
+import { WorkComponent } from './code/work/work.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { AboutComponent } from './about/about.component';
     CtaComponent,
     ServiceComponent,
     CardsComponent,
-    AboutComponent
+    AboutComponent,
+    CodeComponent,
+    ProjectsComponent,
+    WorkComponent
   ],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA ],
   imports: [
