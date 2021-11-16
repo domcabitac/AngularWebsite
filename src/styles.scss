@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+body {
+    /* background-color: #ffffff; */
+    font-family: 'Poppins', sans-serif !important;
+    color: #414345;
+    font-weight: lighter;
+    // margin: 0;
+}
+
+html, body {
+    overflow-x: hidden !important;
+}
+
+$blue: rgba(102, 177, 241, 0.8);
+
+h2{
+    font-size: 4rem;
+}
+
+@media screen and (max-width: 575px) {
+    body {
+        padding: 5% !important;
+    }
+}
