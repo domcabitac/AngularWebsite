@@ -6,7 +6,6 @@
     z-index: -1;
     height: 75%;
     overflow: hidden;
-
 }   
 
 .bg path:first-child {
@@ -39,11 +38,6 @@
 
 @media screen and (max-width: 575px) {
 	.bg {
-		background: #414345;
-		position: absolute;
-		top: 0;
-		left: 0;
-		z-index: -1;
 		height: 80% !important;
 	}
 }

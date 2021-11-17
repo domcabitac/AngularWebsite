@@ -59,10 +59,6 @@ h3{
         outline:none;
         transition: all 0.3s ease;
         // mix-blend-mode: hard-light;
-  
-        i {
-          font-size: 3rem;
-        }
       }
   
       &:hover button {
@@ -108,7 +104,7 @@ h3{
   .container{
     .card {
       width: 100%;
-      margin: 1.5rem 0;;
+      margin: 1.5rem 0;
       .pic {
         width: 590px;
         background-image: url($imgVerifyM);

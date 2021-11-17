@@ -4,13 +4,13 @@ svg {
     width: 40px;
     height: 35px;
     margin: 2rem;
-    transition: 200ms all ease;
+    transition: 100ms all ease;
     filter: grayscale(100%);
 }
 
 a {
     svg:hover {
-        transition: 200ms all ease;
+        transition: 100ms all ease;
         filter: grayscale(0%);
     }
 }
