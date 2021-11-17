@@ -12,7 +12,24 @@ svg {
     transform-origin: 50% 100%;
     animation: grow 1s forwards;
 }
-
+.footerNotes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #414345;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: .8rem;
+    width: 100vw;
+    position: relative;
+    margin-left: -50vw;
+    left: 50%;
+    padding: 1rem;
+    br {
+        display: none;
+    }
+}
 .draw {
     stroke-dasharray: 1000;
     stroke-dashoffset: 1000;
@@ -248,5 +265,11 @@ svg {
 @media screen and (max-width: 575px) {
     #footer {
         margin-bottom: -1rem;
+    }
+    .footerNotes {
+        text-align: center;
+        br {
+            display: block;
+        }
     }
   }
