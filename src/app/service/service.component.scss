@@ -25,7 +25,13 @@ h3{
         font-size: 3rem;
     }
     .title {
-        margin-top: 8rem;
+        margin-top: 10rem;
         margin-bottom: 1rem;
+    }
+}
+
+@media screen and (min-height: 1190px) {
+    .title{
+        margin-top: 15rem;
     }
 }
