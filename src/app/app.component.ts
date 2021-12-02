@@ -9,6 +9,8 @@ import * as AOS from 'aos';
 export class AppComponent {
   title = 'AngularWebsite';
   ngOnInit() {
+    window.addEventListener('load', AOS.refresh);
+
     AOS.init();
   }
 }
