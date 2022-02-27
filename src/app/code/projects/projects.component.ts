@@ -26,7 +26,7 @@ export class ProjectsComponent implements OnInit {
     title : "Github Finder",
     banner : '/assets/img/github.png',
     link : {
-      link : 'https://621bbd2b3fbf87c3773daaec--hungry-ride-431acf.netlify.app/',
+      link : 'https://hungry-ride-431acf.netlify.app/',
       code : 'https://github.com/domcabitac/github-finder',
   },
     stack: 'React, Bootstrap',
