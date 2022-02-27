@@ -16,6 +16,7 @@ import { ProjectsComponent } from './code/projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { BrandsComponent } from './code/brands/brands.component';
+import { CareerComponent } from './career/career.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { BrandsComponent } from './code/brands/brands.component';
     ProjectsComponent,
     ContactComponent,
     FooterComponent,
-    BrandsComponent
+    BrandsComponent,
+    CareerComponent
   ],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA ],
   imports: [

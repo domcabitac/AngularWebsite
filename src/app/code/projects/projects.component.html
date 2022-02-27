@@ -1,33 +1,23 @@
 <div class="container">
-    <div class="row">
-        <div class='col-12 col-xl-6 col-lg-6'>
-          <a href='https://competent-heisenberg-f8f7ef.netlify.app/' data-aos="fade-up" class="card" target="_blank">
-          <h2>COVID19 Tracker</h2>
-          <div class="pic"></div>
-          <button>
-          </button>
-        </a>
-        <a href='https://github.com/domcabitac/github-finder' data-aos="fade-up" class="card card2" target="_blank">
-          <h2>Github Finder</h2>
-          <div class="pic"></div>
-          <button>
-          </button>
-        </a>
+    <div class="row justify-content-center align-items-center">
+        <div *ngFor="let item of data" class='col-12 col-xl-3 col-lg-6 col-md-6'>
+        <div class="card" data-aos="fade-up" >
+
+          <div class="card-image">
+            <img class="img" src="{{item.banner}}">
+          </div>
+        
+          <div class="card-description">
+            <h1 class="card-title">{{item.title}}</h1>
+            <h4 class="card-stack">{{item.stack}}</h4>
+            <p class="card-paragraph">{{item.desc}}</p>
+            <div class="card-btns" [ngClass]="{'active':item.active=='Yes', 'not-active':item.active=='No'}">
+              <button type="button"><a href="{{item.link.live}}" target="_blank">Live</a></button>
+              <button type="button"><a href="{{item.link.code}}" target="_blank">Code</a></button>
+            </div>
+          </div>
+        
         </div>
-        <div class='col-12 col-xl-6 col-lg-6'>
-          <a href='https://zen-ride-cb29f1.netlify.app/' data-aos="fade-up" data-aos-delay="100" class="card card3" target="_blank">
-            <h2>Budget Tracker</h2>
-            <div class="pic"></div>
-            <button>
-            </button>
-          </a>
-  
-          <a href='https://domcabitac.github.io/Pig-Game/' data-aos="fade-up" data-aos-delay="100" class="card card4" target="_blank">
-          <h2>Pig Game</h2>
-          <div class="pic"></div>
-          <button>
-          </button>
-        </a>
         </div>
     </div>
   </div>
