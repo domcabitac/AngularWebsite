@@ -46,7 +46,7 @@ export class ProjectsComponent implements OnInit {
     banner : '/assets/img/lululemon.png',
     link : {
       live : '',
-      code: ''
+      code: 'https://github.com/domcabitac/LululemonClone'
     },
     stack: 'MEAN Stack',
     desc: 'Lululemon clone site coming soon. Currently under construction.',
