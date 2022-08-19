@@ -28,8 +28,8 @@ export class BrandsComponent implements OnInit {
     logo : '/assets/img/Logos/UWDR.svg',
     link : 'https://unitedwaydr.com/'
   },{
-    logo : '/assets/img/Logos/PG.svg',
-    link : 'https://parablegifts.ca/'
+    logo : '/assets/img/Logos/OPG.svg',
+    link : 'https://www.opg.com/'
   }]
 
 }
