@@ -12,8 +12,8 @@
             <h4 class="card-stack">{{item.stack}}</h4>
             <p class="card-paragraph">{{item.desc}}</p>
             <div class="card-btns" [ngClass]="{'active':item.active=='Yes', 'not-active':item.active=='No'}">
-              <button type="button"><a href="{{item.link.live}}" target="_blank">Live</a></button>
-              <button type="button"><a href="{{item.link.code}}" target="_blank">Code</a></button>
+              <a href="{{item.link.live}}" target="_blank"><button type="button">Live</button></a>
+              <a href="{{item.link.code}}" target="_blank"><button type="button">Code</button></a>
             </div>
           </div>
         
