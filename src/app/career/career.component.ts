@@ -14,7 +14,7 @@ export class CareerComponent implements OnInit {
   data = [{
     dates : "April 2022 - Present",
     company : 'Ontario Power Generation',
-    role: 'IM Applications & Innovation',
+    role: 'Template Specialist - IM Applications & Innovation',
     description: [
       "- Upgraded departments workflow by digitizing physical paper forms, converting documents into responsive web applications using Figma, Microsoft Power Apps, Power Automate and SharePoint List.\n - Assisted internal OPG teams with template UI complications by breaking down clients situation and dissecting their documents backend using Microsoft Visual Basic for Applications. \n - Built company wide document templates that align with OPGs brand styling using Figma, Microsoft Office and Visual Basic for Applications."
     ]
