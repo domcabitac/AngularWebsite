@@ -1,122 +1,21 @@
-<div class="container">
-    <div class="row d-flex justify-content-center align-items-center">
+    <div class="row example-split d-flex justify-content-center align-items-center">
         <div class="col-12 d-flex justify-content-center align-items-center title">
             <h2>
                 Career
             </h2>
         </div>
-    </div>
-    <div class="row">
-        <ul class="timeline">
-            <li>
-                <div class="direction-r" data-aos="fade-up">
-                    <div class="flag-wrapper">
-                        <span class="flag">Ontario Power Generation</span>
-                        <span class="time-wrapper"><span class="time">April 2022 - Present</span></span>
-                    </div>
-                    <div class="desc">
-                        <div class="role">
-                            Template Specialist - IM Applications & Innovation
-                        </div>
-                        - Upgraded departments workflow by digitizing physical paper forms, converting documents into responsive web applications using Figma, Microsoft Power Apps, Power Automate and SharePoint List.  <br>
-                        - Assisted internal OPG teams with template UI complications by breaking down clients situation and dissecting their documents backend using Microsoft Visual Basic for Applications.  <br>
-                        - Built company wide document templates that align with OPG's brand styling using Figma, Microsoft Office and Visual Basic for Applications.  <br>
-                    </div>
+    <div class="col-xs-10 col-xs-offset-1 col-sm-12 col-md-10">
+        <ul class="timeline timeline-split">
+            <li *ngFor="let item of data"  class="timeline-item">
+                <div class="timeline-info" data-aos="fade-up">
+                    <span>{{item.dates}}</span>
                 </div>
-            </li>        
-            <li>
-                <div class="direction-l" data-aos="fade-up">
-                    <div class="flag-wrapper">
-                        <span class="flag">Royal Bank of Canada</span>
-                        <span class="time-wrapper"><span class="time">March 2022 - April 2022</span></span>
-                    </div>
-                    <div class="desc">
-                        <div class="role">
-                            Analyst, Data Stewardship - Global Procurement
-                        </div>
-                        - Influenced decision making on how to invest in socially responsible vendors by modelling and visualizing diverse spend datasets leveraging Excel and Tableau. <br>
-                        - Enhanced data accuracy and cleanliness by implementing a new migration tool that involves process mapping and elimination of errors to ensure the department can utilize for future projects. <br>
-                        - Revamped department identity by designing various team logos that align with RBC’s styling brand using Figma. <br>
-                    </div>
-                </div>
-            </li>  
-            <li>
-                <div class="direction-r" data-aos="fade-up">
-                    <div class="flag-wrapper">
-                        <span class="flag">Royal Bank of Canada</span>
-                        <span class="time-wrapper"><span class="time">March 2021 - March 2022</span></span>
-                    </div>
-                    <div class="desc">
-                        <div class="role">
-                            Career Launch Associate
-                        </div>
-                        <div class="sub-role">
-                            Analyst, Data Stewardship - RBC Global Procurement | December 2021 - March 2022
-                        </div>
-                        - Improved the accessibility of functional partner data by transforming formerly text based datasets into user friendly dashboard visualizations leveraging bar charts, line graphs and trend lines from Tableau and Excel.
-                        <br>
-                        - Optimized team workflow by consolidating and integrated major team milestones into centralized user experience using PlanView ProjectPlace.
-                        <br>
-                        - Enhanced UI and user experience of the Procurement connect site from end to end through wire framing, testing and integration leveraging with Figma.
-                        <br><br>
-                        <div class="sub-role">
-                            Web Expansion Coordinator, United Way of Durham Region | September 2021 - December 2021
-                        </div>
-                        - Designed and developed campaign advertisement for united way’s marketing initiatives using Canva and Sketch. <br>
-                        - Lead, interpreted campaign analytics providing insights to project leads by visualizing project expenses and donation repots using table and excel. <br>
-                        - Elevated campaign awareness by producing and editing videos using iMovie.
-                        <br><br>
-                        <div class="sub-role">
-                            Credit Card Dispute Advisor | March 2021 - September 2021
-                        </div>
-                        - Assisted clients with recovering credit card dispute amounts by researching and building cases that were reviewed by credit card companies. <br>
-                        - Validated data from internal and third party systems that ensured appropriate course of action was pursued. <br>
-                        - Managed high volume of referrals and email inquiries to resolve credit card disputes.
-                        <br>
-                    </div>
+                <div class="timeline-marker"></div>
+                <div class="timeline-content" data-aos="fade-up">
+                    <h3 class="timeline-title">{{item.company}}<h5>{{item.role}}</h5></h3>
+                    <p class="content">{{item.description}}</p>
                 </div>
             </li>
-            <li>
-                <div class="direction-l" data-aos="fade-up">
-                    <div class="flag-wrapper">
-                        <span class="flag">Ferraz Creative</span>
-                        <span class="time-wrapper"><span class="time">Sept 2020 - June 2021</span></span>
-                    </div>
-                    <div class="desc">
-                        <div class="role">
-                            Junior Web Developer
-                        </div>
-                        - Built production websites by collaborating with senior developer and designer on aspects of the site using PHP for WordPress, HTML/CSS/JavaScript and Figma. <br>
-                        - Maintained website quality assurance by implementing responsive testing to ensure the backend data and front-end interfaces reflect properly on all platforms. <br>
-                        - Leverage client/insight to identify and correct issues with overall website flow.
-                    </div>
-                </div>
-            </li>        
-            <li>
-                <div class="direction-r" data-aos="fade-up">
-                    <div class="flag-wrapper">
-                        <span class="flag">Ontario Tech University</span>
-                        <span class="time-wrapper"><span class="time">Sept 2016 - Dec 2020</span></span>
-                    </div>
-                    <div class="desc">
-                        <div class="role">
-                            Bachelor of Science - Computer Science (Honours)
-                        </div>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <div class="direction-l" data-aos="fade-up">
-                    <div class="flag-wrapper">
-                        <span class="flag">Durham College</span>
-                        <span class="time-wrapper"><span class="time">Sept 2014 - Aug 2015</span></span>
-                    </div>
-                    <div class="desc"><div class="role">
-                        General Arts and Science - Science and Engineering Prep (Ontario Tech Transfer)
-                    </div></div>
-                </div>
-            </li>    
         </ul>
-        
     </div>
 </div>
