@@ -9,7 +9,6 @@ import { BackgroundComponent } from './hero/background/background.component';
 import { TypeWritterComponent } from './hero/type-writter/type-writter.component';
 import { ServiceComponent } from './service/service.component';
 import { CardsComponent } from './service/cards/cards.component';
-import { AboutComponent } from './about/about.component';
 import { CodeComponent } from './code/code.component';
 import { ProjectsComponent } from './code/projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
@@ -26,7 +25,6 @@ import { CareerComponent } from './career/career.component';
     TypeWritterComponent,
     ServiceComponent,
     CardsComponent,
-    AboutComponent,
     CodeComponent,
     ProjectsComponent,
     ContactComponent,
