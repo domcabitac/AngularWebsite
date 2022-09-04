@@ -1,7 +1,7 @@
 .card {
-  height: 215px;
+  height: 250px;
   position: relative;
-  width: 370px;
+  // width: 450px;
   overflow: hidden;
   border-radius: 8px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
@@ -50,12 +50,11 @@ img {
 a {
   z-index: 1;
   color: transparent;
+  margin-bottom: 2rem;
+  width: 100%;
 }
-@media screen and (max-width: 1400px) {
-  .card {
-    width: 300px;
-  }
-}
+
+
 @media screen and (max-width: 991px) {
   .card {
     margin-bottom: 1.2rem;
@@ -76,5 +75,8 @@ a {
   }
   p {
     font-size: 0.9rem;
+  }
+  a {
+    margin-bottom: 1rem;
   }
 }

@@ -19,9 +19,7 @@ export class ProjectsComponent implements OnInit {
       live : 'https://competent-heisenberg-f8f7ef.netlify.app/',
       code: 'https://github.com/domcabitac/covid19'
     },
-    stack: 'Angular, TypeScript, Semantic UI',
-    desc: 'A user friendly data visualization website that allows users to track SARSCoV2 across Canada.',
-    active : 'Yes'
+    stack: 'Angular, TypeScript, Semantic UI'
   },{
     title : "Github Finder",
     banner : '/assets/img/github.png',
@@ -29,9 +27,7 @@ export class ProjectsComponent implements OnInit {
       live : 'https://hungry-ride-431acf.netlify.app/',
       code : 'https://github.com/domcabitac/github-finder',
   },
-    stack: 'React, Bootstrap',
-    desc: 'A web app that searches for GitHub users. Implemented with the Github API to get the users information.',
-    active : 'Yes'
+    stack: 'React, Bootstrap'
   },{
     title : "Budget Buddy",
     banner : '/assets/img/money.png',
@@ -39,21 +35,17 @@ export class ProjectsComponent implements OnInit {
       live : 'https://zen-ride-cb29f1.netlify.app/',
       code: 'https://github.com/domcabitac/budget-app'
     },
-    stack: 'Angular, TypeScript, Bulma',
-    desc: 'A simple budgeting web app that allows users to organize their expenses and income by categories.',
-    active : 'Yes'
+    stack: 'Angular, TypeScript, Bulma'
   }
-  // ,{
-  //   title : "Lululemon",
-  //   banner : '/assets/img/lululemon.png',
-  //   link : {
-  //     live : '',
-  //     code: 'https://github.com/domcabitac/LululemonClone'
-  //   },
-  //   stack: 'MEAN Stack',
-  //   desc: 'Lululemon clone site coming soon. Currently under construction.',
-  //   active : 'No'
-  // }
+  ,{
+    title : "Youtube Clone",
+    banner : '/assets/img/youtube.png',
+    link : {
+      live : 'https://github.com/domcabitac/youtube_clone',
+      code: 'https://github.com/domcabitac/youtube_clone'
+    },
+    stack: 'COMING SOON - React, Material UI'
+    }
 ]
 
 }
