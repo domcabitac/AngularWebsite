@@ -42,16 +42,18 @@ export class ProjectsComponent implements OnInit {
     stack: 'Angular, TypeScript, Bulma',
     desc: 'A simple budgeting web app that allows users to organize their expenses and income by categories.',
     active : 'Yes'
-  },{
-    title : "Lululemon",
-    banner : '/assets/img/lululemon.png',
-    link : {
-      live : '',
-      code: 'https://github.com/domcabitac/LululemonClone'
-    },
-    stack: 'MEAN Stack',
-    desc: 'Lululemon clone site coming soon. Currently under construction.',
-    active : 'No'
-  }]
+  }
+  // ,{
+  //   title : "Lululemon",
+  //   banner : '/assets/img/lululemon.png',
+  //   link : {
+  //     live : '',
+  //     code: 'https://github.com/domcabitac/LululemonClone'
+  //   },
+  //   stack: 'MEAN Stack',
+  //   desc: 'Lululemon clone site coming soon. Currently under construction.',
+  //   active : 'No'
+  // }
+]
 
 }

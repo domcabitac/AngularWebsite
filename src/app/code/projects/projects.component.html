@@ -1,23 +1,14 @@
 <div class="container">
-    <div class="row justify-content-center align-items-center">
-        <div *ngFor="let item of data" class='col-12 col-xl-3 col-lg-6 col-md-6'>
-        <div class="card" data-aos="fade-up" >
-
-          <div class="card-image">
-            <img class="img" src="{{item.banner}}">
-          </div>
-        
-          <div class="card-description">
-            <h1 class="card-title">{{item.title}}</h1>
-            <h4 class="card-stack">{{item.stack}}</h4>
-            <p class="card-paragraph">{{item.desc}}</p>
-            <div class="card-btns" [ngClass]="{'active':item.active=='Yes', 'not-active':item.active=='No'}">
-              <a href="{{item.link.live}}" target="_blank"><button type="button">Live</button></a>
-              <a href="{{item.link.code}}" target="_blank"><button type="button">Code</button></a>
-            </div>
-          </div>
-        
-        </div>
-        </div>
+  <div class="row d-flex justify-content-center align-items-center">
+  <div *ngFor="let item of data" class='col-12 col-xl-4 col-lg-4 d-flex justify-content-center align-items-center'>
+  <a href="{{item.link.live}}" target="_blank">
+    <div class="card" data-aos="fade-up" >
+      <img src="{{item.banner}}"/>
+      <h3>{{item.title}}</h3>
+      <p>{{item.stack}}</p>
     </div>
+    </a>
+  
   </div>
+  </div>
+</div>
