@@ -11,6 +11,7 @@ $primary-color-hover: scale-color($primary-color, $lightness: 32%);
 body {
     padding: 0;
     -webkit-font-smoothing: antialiased;
+
 }
 h1,h2,h3,h4,h5,h6 {
     margin-top: 0;
@@ -120,7 +121,7 @@ a {
         &:after {
             content: "";
             width: 3px;
-            background: #CCD5DB;
+            background: #ebebeb;
             display: block;
             position: absolute;
             top: 24px; bottom: 0; left: 6px;
@@ -233,6 +234,10 @@ a {
       .timeline-content{
         padding-bottom: 20px;
       }
+      .timeline-item:not(.period):hover .timeline-marker:before {
+        background: $primary-color;
+        border: 3px solid $primary-color;
+    }
     }
   
 
