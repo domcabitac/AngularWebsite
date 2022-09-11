@@ -80,3 +80,20 @@ a {
     margin-bottom: 1rem;
   }
 }
+@media screen and (max-width: 575px) {
+  .row > * {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+    a {
+    margin-bottom: 0;
+  }
+  h3 {
+    margin: 15px 0 0 15px;
+  }
+  p {
+    margin: 0 0 15px 15px;
+    font-size: 0.85rem;
+
+  }
+}
