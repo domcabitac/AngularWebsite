@@ -21,6 +21,15 @@ export class ProjectsComponent implements OnInit {
     },
     stack: 'Angular, TypeScript, Semantic UI'
   },{
+    title : "Youtube Clone",
+    banner : '/assets/img/youtube.png',
+    link : {
+      live : 'https://luminous-halva-541204.netlify.app/',
+      code: 'https://github.com/domcabitac/youtube_clone'
+    },
+    stack: 'React, Material UI'
+    },
+  {
     title : "Github Finder",
     banner : '/assets/img/github.png',
     link : {
@@ -37,15 +46,7 @@ export class ProjectsComponent implements OnInit {
     },
     stack: 'Angular, TypeScript, Bulma'
   }
-  ,{
-    title : "Youtube Clone",
-    banner : '/assets/img/youtube.png',
-    link : {
-      live : 'https://luminous-halva-541204.netlify.app/',
-      code: 'https://github.com/domcabitac/youtube_clone'
-    },
-    stack: 'COMING SOON - React, Material UI'
-    }
+  ,
 ]
 
 }
