@@ -41,7 +41,7 @@ export class ProjectsComponent implements OnInit {
     title : "Youtube Clone",
     banner : '/assets/img/youtube.png',
     link : {
-      live : 'https://github.com/domcabitac/youtube_clone',
+      live : 'https://luminous-halva-541204.netlify.app/',
       code: 'https://github.com/domcabitac/youtube_clone'
     },
     stack: 'COMING SOON - React, Material UI'
