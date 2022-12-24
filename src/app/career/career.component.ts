@@ -16,7 +16,7 @@ export class CareerComponent implements OnInit {
     company : 'Ontario Power Generation',
     role: 'Template Specialist - IM Applications & Innovation',
     description: [
-      "- Upgraded departments workflow by digitizing physical paper forms, converting documents into responsive web applications using Figma, Microsoft Power Apps, Power Automate and SharePoint List.\n - Assisted internal OPG teams with template UI complications by breaking down clients situation and dissecting their documents backend using Microsoft Visual Basic for Applications. \n - Built company wide document templates that align with OPGs brand styling using Figma, Microsoft Office and Visual Basic for Applications."
+      "- Led the development of a province wide IT health status app that checks for system outages, improving the efficiency and reliability of company operations by providing timely information on system status and enabling proactive maintenance using Microsoft Power Apps and Power Automate. \n- Upgraded departments workflow by digitizing physical paper forms, converting documents into responsive web applications using Figma, Microsoft Power Apps, Power Automate and SharePoint List.\n - Created company-wide document templates that align with their branding style, streamlining document creation and ensuring consistent presentation of company materials using Figma, Microsoft Office and Visual Basic for Applications."
     ]
   },
   {

@@ -3,7 +3,8 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    svg {
+    white-space: pre-line;
+    img {
         height: 105px;
         width: 90px;
     }
@@ -35,7 +36,7 @@
         flex-direction: row;
         justify-content: flex-start;
         align-items: center;
-        svg {
+        img {
             height: 85px;
             width: 70px;
             margin: 1rem;
@@ -69,7 +70,7 @@
 @media screen and (max-width: 575px) {
     .cards{
         margin: 1rem 0;
-        svg {
+        img {
             height: 85px;
             width: 70px;
             margin: 0;

@@ -11,5 +11,21 @@ export class ContactComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  data = [{
+    logo: "/assets/img/email.svg",
+    link: "mailto:dominiccabitac@gmail.com"
+  },
+  {
+    logo: "/assets/img/linkedin.svg",
+    link: "https://www.linkedin.com/in/dominic-cabitac/"
+  },
+  {
+    logo: "/assets/img/github.svg",
+    link: "https://github.com/domcabitac"
+  },
+  {
+    logo: "/assets/img/resume.svg",
+    link: "../../assets/docs/DominicCabitac_Resume.pdf"
+  }
+]
 }
