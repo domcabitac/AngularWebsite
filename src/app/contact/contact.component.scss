@@ -1,7 +1,6 @@
 @import '../../styles.scss';
 
 img {
-    width: 40px;
     height: 35px;
     margin: 2rem;
     transition: 100ms all ease;
@@ -39,7 +38,6 @@ h2 {
         -ms-filter: grayscale(0%);
         -o-filter: grayscale(0%);
         filter: grayscale(0%);
-        width: 35px;
         height: 30px;
         margin: 1rem;
     }
