@@ -5,7 +5,12 @@
     align-items: center;
     white-space: pre-line;
     img {
-        height: 105px;
+        width: 4.86em;
+        box-shadow: 0 10px 34px 0 rgba(248, 247, 247, 0.05);
+        border-style: hidden;
+
+          border-width: 1px;
+  border-radius: 100%;
     }
     p{
         text-align: center;
@@ -22,6 +27,12 @@
         display: flex;
         justify-content: center;
         align-items: center;
+  width: 4.86em;
+  height: 4.86em;
+  margin-bottom: 0.5em;
+  background-color: #f8f7f7 !important;
+
+
     }
     .content {
         display: flex;
