@@ -12,7 +12,7 @@ export class CareerComponent implements OnInit {
   ngOnInit(): void {
   }
   data = [{
-    dates : "April 2022 - Present",
+    dates : "04/2022 - Present",
     company : 'Ontario Power Generation',
     role: 'Template Specialist - IM Applications & Innovation',
     description: [
@@ -20,7 +20,7 @@ export class CareerComponent implements OnInit {
     ]
   },
   {
-    dates : "March 2022 - April 2022",
+    dates : "03/2022 - 04/2022",
     company : 'Royal Bank of Canada',
     role: 'Analyst, Data Stewardship - Global Procurement',
     description: [
@@ -28,7 +28,7 @@ export class CareerComponent implements OnInit {
     ]
   },
   {
-    dates : "March 2021 - March 2022",
+    dates : "03/2021 - 03/2022",
     company : 'Royal Bank of Canada',
     role: 'Career Launch Associate',
     description: [
@@ -36,7 +36,7 @@ export class CareerComponent implements OnInit {
     ]
   },
   {
-    dates : "September 2020 - June 2021",
+    dates : "09/2020 - 06/2021",
     company : 'Ferraz Creative',
     role: 'Junior Web Developer',
     description: [
@@ -44,12 +44,12 @@ export class CareerComponent implements OnInit {
     ]
   },
   {
-    dates : "September 2016 - December 2020",
+    dates : "09/2016 - 12/2020",
     company : 'Ontario Tech University',
     role: 'Bachelor of Science - Computer Science (Honours)',
   },
   {
-    dates : "September 2014 - August 2015",
+    dates : "09/2014 - 08/2015",
     company : 'Durham College',
     role: 'General Arts and Science - Science and Engineering Prep (Ontario Tech Transfer)',
   }

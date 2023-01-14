@@ -257,3 +257,72 @@ a {
                 background: $primary-color;
             }
         }
+
+        .radar-type1 { background: url(https://virtina.com/wp-content/themes/virtina/images/radar.svg) no-repeat; width: 356px; opacity: .8; height: 356px; z-index: -1; background-size: 356px 356px; position: absolute; top: 1480px;
+            left: 95%;transform: translate(-50%,-50%);-moz-transform: translate(-50%,-50%);-webkit-transform: translate(-50%,-50%);}
+.radar-type1 .cir-one {display: block; position: absolute; z-index: 1024; left: 0%; right: 0%; top: 0%; bottom: 50%; will-change: transform; -webkit-transform-origin: 50% 100%; -moz-transform-origin: 50% 100%; transform-origin: 50% 100%; -webkit-animation: rotate360 6s infinite linear; -moz-animation: rotate360 6s infinite linear; animation: rotate360 6s infinite linear; }
+.radar-type1 .cir-one:after {content: '';display: inline-block;position: absolute;background: #00F0D8;width: 12px;height: 12px;right: 198px;bottom:72px; -webkit-border-radius: 100%; -moz-border-radius: 100%; -ms-border-radius: 100%; -o-border-radius: 100%; border-radius: 100%;}
+.radar-type1 .cir-two {display: block; position: absolute; z-index: 1024; left: 0%; right: 0%; top: 0%; bottom: 50%; will-change: transform; -webkit-transform-origin: 50% 100%; -moz-transform-origin: 50% 100%; transform-origin: 50% 100%; -webkit-animation: rotate360 12s infinite linear; -moz-animation: rotate360 12s infinite linear; animation: rotate360 12s infinite linear; }
+.radar-type1 .cir-two:after {content: '';display: inline-block;position: absolute;background: #A5BDD3;width: 26px;height: 26px;right: 268px;bottom:72px; -webkit-border-radius: 100%; -moz-border-radius: 100%; -ms-border-radius: 100%; -o-border-radius: 100%; border-radius: 100%;}
+.radar-type1 .cir-three {display: block; position: absolute; z-index: 1024; left: 0%; right: 0%; top: 0%; bottom: 50%; will-change: transform; -webkit-transform-origin: 50% 100%; -moz-transform-origin: 50% 100%; transform-origin: 50% 100%; -webkit-animation: rotate360 8s infinite linear; -moz-animation: rotate360 8s infinite linear; animation: rotate360 8s infinite linear; }
+.radar-type1 .cir-three:after {content: '';display: inline-block;position: absolute;background: $primary-color;width: 16px;height: 16px;right: 328px;bottom:72px; -webkit-border-radius: 100%; -moz-border-radius: 100%; -ms-border-radius: 100%; -o-border-radius: 100%; border-radius: 100%;}
+.radar-type1 .cir-zero {display: block; position: absolute; z-index: 1024; left: 0%; right: 0%; top: 0%; bottom: 50%; will-change: transform; -webkit-transform-origin: 50% 100%; -moz-transform-origin: 50% 100%; transform-origin: 50% 100%; -webkit-animation: rotate360 8s infinite linear; -moz-animation: rotate360 8s infinite linear; animation: rotate360 8s infinite linear; }
+.radar-type1 .cir-zero:after {content: '';display: inline-block;position: absolute;background: #5667ff ;width: 10px;height: 10px;right: 158px;bottom:29px; -webkit-border-radius: 100%; -moz-border-radius: 100%; -ms-border-radius: 100%; -o-border-radius: 100%; border-radius: 100%;}
+
+@-moz-keyframes rotate360 {
+  0% { -moz-transform: rotate(0deg); transform: rotate(0deg); }
+  to { -moz-transform: rotate(-360deg); transform: rotate(-360deg); }
+}
+@-webkit-keyframes rotate360 {
+  0% { -webkit-transform: rotate(0deg); transform: rotate(0deg); }
+  to { -webkit-transform: rotate(-360deg); transform: rotate(-360deg); }
+}
+@keyframes rotate360 {
+  0% { -webkit-transform: rotate(0deg); transform: rotate(0deg); }
+  to { -webkit-transform: rotate(-360deg); transform: rotate(-360deg); }
+}
+
+@-moz-keyframes stretch {
+  10%, 100% {
+   -moz-transform: scale(1);
+  }
+  0% {
+    -moz-transform: scale(1);
+    
+  }
+  5% {
+    -moz-transform: scale(1.3);
+    
+  }
+}
+@-webkit-keyframes stretch {
+  10%, 100% {
+   -webkit-transform: scale(1);
+  }
+  0% {
+    -webkit-transform: scale(1);
+    
+  }
+  5% {
+    -webkit-transform: scale(1.3);
+    
+  }
+}
+@keyframes stretch {
+  10%, 100% {
+   transform: scale(1);
+  }
+  0% {
+    transform: scale(1);
+    
+  }
+  5% {
+    transform: scale(1.3);
+    
+  }
+}
+@media screen and (max-width: 575px) {
+    .radar-type1 {
+        display: none !important;
+    }
+}
