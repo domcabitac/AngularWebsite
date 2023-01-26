@@ -3,7 +3,7 @@
   <div *ngFor="let item of data" class='col-12 col-xl-5 col-md-6 d-flex justify-content-center align-items-center'>
   <a href="{{item.link.live}}" target="_blank">
     <div class="card" data-aos="fade-up" >
-      <img src="{{item.banner}}"/>
+      <img loading="lazy" src="{{item.banner}}"/>
       <h3>{{item.title}}</h3>
       <p>{{item.stack}}</p>
     </div>

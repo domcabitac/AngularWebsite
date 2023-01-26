@@ -1,7 +1,7 @@
 <div data-aos="fade-up" class="row d-flex justify-content-center services">
     <div *ngFor="let item of data" class="col-12 col-xl-2 col-lg-3 col-md-4 cards">
         <div class="col-3 col-xl-5 col-lg-5 col-md-5 icons" style="border-color: '{{item.color}}'">
-            <img src="{{item.logo}}" alt=""/>             
+            <img loading="lazy" src="{{item.logo}}" alt=""/>             
         </div>
         <div class="col-9 col-xl-8 col-lg-8 col-md-8 content">
             <h3>{{item.title}}</h3>
