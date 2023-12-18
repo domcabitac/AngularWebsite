@@ -11,8 +11,25 @@ export class CareerComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  data = [{
-    dates : "04/2022 - Present",
+  data = [
+  {
+    dates : "06/2023 - Present",
+    company : 'Nuclear Promise X',
+    role: 'Product Manager',
+    description: [
+      "- Managed delivery of PowerPlatform solutions to Ontario Power Generation and Bruce Power through Azure release pipelines, leading to more precise product development.\n- Improved client’s user experience by conducting user interviews, designing user workflows, and high- fidelity wireframes of their custom solution with Figma.\n- Leveraged Agile methodologies by using DevOps for sprint planning, reducing development cycle times, and ensuring timely delivery of high-quality solutions."
+    ]
+  },
+  {
+    dates : "03/2023 - 06/2023",
+    company : 'Nuclear Promise X',
+    role: 'Power Platform Developer',
+    description: [
+      "- Developed release pipelines in Azure for seamless transfer of custom PowerApps and databases across various environments, optimizing deployment efficiency.\n- Designed and built a custom PowerApps base application for internal use to align future projects with company’s design guidelines.\n- Updated current PowerApps based on client feedback by incorporating custom components to address their specific needs."
+    ]
+  },
+  {
+    dates : "04/2022 - 03/2023",
     company : 'Ontario Power Generation',
     role: 'Template Specialist - IM Applications & Innovation',
     description: [
@@ -22,7 +39,7 @@ export class CareerComponent implements OnInit {
   {
     dates : "03/2022 - 04/2022",
     company : 'Royal Bank of Canada',
-    role: 'Analyst, Data Stewardship - Global Procurement',
+    role: 'Data Analyst, Global Procurement',
     description: [
       "- Influenced decision making on how to invest in socially responsible vendors by modelling and visualizing diverse spend datasets leveraging Excel and Tableau. \n- Enhanced data accuracy and cleanliness by implementing a new migration tool that involves process mapping and elimination of errors to ensure the department can utilize for future projects. \n- Revamped department identity by designing various team logos that align with RBC’s styling brand using Figma."
     ]
@@ -32,7 +49,7 @@ export class CareerComponent implements OnInit {
     company : 'Royal Bank of Canada',
     role: 'Career Launch Associate',
     description: [
-      "Analyst, Data Stewardship - RBC Global Procurement | December 2021 - March 2022\n - Improved the accessibility of functional partner data by transforming formerly text based datasets into user friendly dashboard visualizations leveraging bar charts, line graphs and trend lines from Tableau and Excel. \n- Optimized team workflow by consolidating and integrated major team milestones into centralized user experience using PlanView ProjectPlace. \n- Enhanced UI and user experience of the Procurement connect site from end to end through wire framing, testing and integration leveraging with Figma.\n\nWeb Expansion Coordinator, United Way of Durham Region | September 2021 - December 2021\n- Designed and developed campaign advertisement for united ways marketing initiatives using Canva and Sketch.\n- Lead, interpreted campaign analytics providing insights to project leads by visualizing project expenses and donation reports using Tableau and Excel.\n- Elevated campaign awareness by producing and editing videos using iMovie.\n\nCredit Card Dispute Advisor | March 2021 - September 2021\n- Assisted clients with recovering credit card dispute amounts by researching and building cases that were reviewed by credit card companies.\n- Validated data from internal and third party systems that ensured appropriate course of action was pursued.\n- Managed high volume of referrals and email inquiries to resolve credit card disputes."
+      "Data Analyst - RBC Global Procurement | December 2021 - March 2022\n - Improved the accessibility of functional partner data by transforming formerly text based datasets into user friendly dashboard visualizations leveraging bar charts, line graphs and trend lines from Tableau and Excel. \n- Optimized team workflow by consolidating and integrated major team milestones into centralized user experience using PlanView ProjectPlace. \n- Enhanced UI and user experience of the Procurement connect site from end to end through wire framing, testing and integration leveraging with Figma.\n\nWeb Expansion Coordinator, United Way of Durham Region | September 2021 - December 2021\n- Designed and developed campaign advertisement for united ways marketing initiatives using Canva and Sketch.\n- Lead, interpreted campaign analytics providing insights to project leads by visualizing project expenses and donation reports using Tableau and Excel.\n- Elevated campaign awareness by producing and editing videos using iMovie.\n\nCredit Card Dispute Advisor | March 2021 - September 2021\n- Assisted clients with recovering credit card dispute amounts by researching and building cases that were reviewed by credit card companies.\n- Validated data from internal and third party systems that ensured appropriate course of action was pursued.\n- Managed high volume of referrals and email inquiries to resolve credit card disputes."
     ]
   },
   {
