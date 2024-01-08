@@ -3,7 +3,7 @@
     position: absolute;
     z-index: -1;
     overflow: hidden;
-    transform: scaleX(2);
+    transform: scaleX(1.5);
 }   
 
 .bg path:first-child {
@@ -37,5 +37,11 @@
 @media screen and (max-width: 575px) {
 	.bg {
         height: 450px;
+	}
+}
+
+@media screen and (min-width: 1190px) {
+	.bg {
+        height: 810px;
 	}
 }
