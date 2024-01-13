@@ -4,6 +4,7 @@
     z-index: -1;
     overflow: hidden;
     transform: scaleX(1.5);
+	height: 720px;
 }   
 
 .bg path:first-child {
@@ -40,8 +41,14 @@
 	}
 }
 
-@media screen and (min-width: 1190px) {
+// @media screen and (min-width: 1190px) {
+// 	.bg {
+//         height: 720px;
+// 	}
+// }
+
+@media screen and (min-width: 1024px) {
 	.bg {
-        height: 810px;
+        height: 720px;
 	}
 }
