@@ -4,7 +4,7 @@
     z-index: -1;
     overflow: hidden !important;
     transform: scaleX(1.5);
-	height: 750px !important;
+	height: 750px;
 }   
 
 .bg path:first-child {
@@ -43,6 +43,6 @@
 
 @media screen and (max-height: 1400px) {
 	.bg {
-        height: 810px;
+        height: 810px !important;
 	}
   }
