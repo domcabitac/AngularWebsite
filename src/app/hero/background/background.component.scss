@@ -41,8 +41,8 @@
 	}
 }
 
-@media screen and (max-height: 1400px) {
+@media screen and (min-height: 1300px) {
 	.bg {
-        height: 810px !important;
+        height: 810px;
 	}
   }
