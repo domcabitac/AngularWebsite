@@ -40,3 +40,9 @@
         height: 450px;
 	}
 }
+
+@media screen and (max-width: 1200px) {
+	.bg {
+        height: 800px !important;
+	}
+}
