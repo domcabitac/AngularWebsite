@@ -2,9 +2,9 @@
 	background: #414345;
     position: absolute;
     z-index: -1;
-    overflow: hidden;
+    overflow: hidden !important;
     transform: scaleX(1.5);
-	height: 70vh;
+	height: 750px !important;
 }   
 
 .bg path:first-child {
@@ -41,8 +41,8 @@
 	}
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (max-height: 1400px) {
 	.bg {
-        height: 800px !important;
+        height: 810px;
 	}
-}
+  }
