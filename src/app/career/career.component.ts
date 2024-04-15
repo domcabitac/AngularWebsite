@@ -17,7 +17,7 @@ export class CareerComponent implements OnInit {
     company : 'Nuclear Promise X',
     role: 'Product Manager',
     description: [
-      "- Managed delivery of PowerPlatform solutions to Ontario Power Generation and Bruce Power through Azure release pipelines, leading to more precise product development.\n- Improved client’s user experience by conducting user interviews, designing user workflows, and high- fidelity wireframes of their custom solution with Figma.\n- Leveraged Agile methodologies by using DevOps for sprint planning, reducing development cycle times, and ensuring timely delivery of high-quality solutions."
+      "- Facilitated collaboration between clients and internal products team, leveraging technical background, Agile methodologies, and Azure DevOps to ensure the successful delivery of solutions to Ontario Power Generation and Bruce Power.\n- Strengthened client relationship by conducting user interviews with multiple stakeholders, identifying current workflow, pain points, and proposing optimized solutions, with the end goal to enhance overall user experience.\n- Transformed client’s requirement and discovery work findings into high-fidelity digital wireframes that align with company’s design brand guide as well as implementing cutting edge design practices using Figma."
     ]
   },
   {
@@ -25,7 +25,7 @@ export class CareerComponent implements OnInit {
     company : 'Nuclear Promise X',
     role: 'Power Platform Developer',
     description: [
-      "- Developed release pipelines in Azure for seamless transfer of custom PowerApps and databases across various environments, optimizing deployment efficiency.\n- Designed and built a custom PowerApps base application for internal use to align future projects with company’s design guidelines.\n- Updated current PowerApps based on client feedback by incorporating custom components to address their specific needs."
+      "- Initiated and led the development for Azure DevOps release pipelines for seamless transfer of custom solutions across various environments cutting development release cycle timelines by 40%.\n- Efficiently familiarized with the company's development stack, architecture tools, and design principles, achieving a subject matter expertise role in a short timeframe"
     ]
   },
   {

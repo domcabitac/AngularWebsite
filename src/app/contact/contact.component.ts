@@ -24,6 +24,10 @@ export class ContactComponent implements OnInit {
     link: "https://github.com/domcabitac"
   },
   {
+    logo: "/assets/img/strava.svg",
+    link: "https://strava.app.link/SGkerXokPIb"
+  },
+  {
     logo: "/assets/img/resume.svg",
     link: "../../assets/docs/DominicCabitac_Resume.pdf"
   }
