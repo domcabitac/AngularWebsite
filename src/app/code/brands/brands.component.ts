@@ -25,8 +25,8 @@ export class BrandsComponent implements OnInit {
     logo : '/assets/img/Logos/RBC.svg',
     link : 'https://www.rbcroyalbank.com/personal.html'
   },{
-    logo : '/assets/img/Logos/UWDR.svg',
-    link : 'https://unitedwaydr.com/'
+    logo : '/assets/img/Logos/CNIC.svg',
+    link : 'https://www.canadianisotopes.ca'
   },{
     logo : '/assets/img/Logos/OPG.svg',
     link : 'https://www.opg.com/'

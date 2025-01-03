@@ -15,7 +15,7 @@ export class CareerComponent implements OnInit {
   {
     dates : "06/2023 - Present",
     company : 'Nuclear Promise X',
-    role: 'Product Manager and Designer',
+    role: 'Digital Product Owner and Designer',
     description: [
       "- Facilitated collaboration between clients and internal products team, leveraging technical background, Agile methodologies, and Azure DevOps to ensure the successful delivery of solutions to Ontario Power Generation and Bruce Power.\n- Strengthened client relationship by conducting user interviews with multiple stakeholders, identifying current workflow, pain points, and proposing optimized solutions, with the end goal to enhance overall user experience.\n- Transformed client’s requirement and discovery work findings into high-fidelity digital wireframes that align with company’s design brand guide as well as implementing cutting edge design practices using Figma.\n- Defined project requirements by creating detailed user stories and acceptance criteria leveraging the findings from the discovery sessions, organizing them on Azure DevOps to create a central hub for the developers to review the project backlog and their tasks.\n- Validated project functionalities by developing a user acceptance testing (UAT) plan to ensure streamline stakeholder QA testing, embedding the acceptance criteria from Azure DevOps."
     ]
