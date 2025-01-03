@@ -13,7 +13,7 @@ export class CareerComponent implements OnInit {
   }
   data = [
   {
-    dates : "06/2023 - Present",
+    dates : "03/2023 - Present",
     company : 'Nuclear Promise X',
     role: 'Digital Product Owner and Designer',
     description: [
