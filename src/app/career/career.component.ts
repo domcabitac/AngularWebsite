@@ -13,9 +13,17 @@ export class CareerComponent implements OnInit {
   }
   data = [
   {
-    dates : "03/2023 - Present",
+    dates : "05/2025 - Present",
+    company : 'Legrand',
+    role: 'Product Manager, Software',
+    description: [
+      "- Directed the software product roadmap for the Wattstopper Digital Lighting Management (DLM) platform by partnering with hardware and firmware product managers, product marketing, and sales team to prioritize products releases and align with market needs.\n- Translated customer and business feature requests into technical requirements by creating Product Requirements Documents (PRD), enabling our internal technical teams to deliver solutions aligned with strategic objectives.\n- Designed high-fidelity wireframes and interactive prototypes alongside UX/UI design team using requirements defined in PRD, securing early technical buy-in on product features and reducing ambiguity throughout the development lifecycle.\n- Optimized Azure DevOps backlog by defining detailed epics, features, user stories, and acceptance criteria from PRDs, improving sprint planning accuracy and supporting consistent Agile delivery across engineering teams."
+    ]
+  },
+  {
+    dates : "03/2023 - 05/2025",
     company : 'Nuclear Promise X',
-    role: 'Digital Product Owner and Designer',
+    role: 'Product Manager & Designer',
     description: [
       "- Led cross-functional teams within the Products department in delivering digital solutions by defining product features, prioritizing backlog items, and ensuring alignment with clients such as Ontario Power Generation, and Bruce Power.\n- Managed product roadmaps by collaborating with key stakeholders, conducting user interviews, and identifying pain points leading to streamlined digital processes and boost overall user experience.\n- Transformed client’s requirement and discovery work findings into high-fidelity wireframes using Figma, aligning with company brand guidelines, user expectation, and technical constraints for developers.\n- Defined project requirements by creating detailed user stories and acceptance criteria based on discovery sessions, and stakeholder feedback, leveraging Azure Devops to ensuring alignment with Agile development methodologies.\n- Validated project’s functional requirements by developing a user acceptance testing (UAT) plan to ensure streamline stakeholder quality assurance testing, embedding the acceptance criteria from Azure DevOps."
     ]
